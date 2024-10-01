@@ -1,0 +1,11 @@
+.container{
+    background-color: aqua;
+    height: 400px;
+    width:400;
+}
+
+.child1,.child2,.child3{
+    border : 2px solid red;
+    height : 100px;
+    width: 100px;
+}
