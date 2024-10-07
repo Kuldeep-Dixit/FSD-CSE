@@ -1,11 +1,35 @@
-.container{
-    background-color: aqua;
-    height: 400px;
-    width:400;
-}
 
-.child1,.child2,.child3{
+.child1,
+.child2,
+.child3,
+.child4{
+    display: flex;
     border : 2px solid red;
-    height : 100px;
-    width: 100px;
+    height : 400px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: aqua;
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    border: 3px solid black;
+    width: 80%;
+}
+.child11,.child12,.child13,.child14{
+    border: 2px solid black;
+    flex-wrap: wrap;
+    height: 100%;
+
+
 }
