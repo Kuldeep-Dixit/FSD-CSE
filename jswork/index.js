@@ -66,15 +66,15 @@
 // console.log(btn)
 // btn[0].addEventListener("click",getData)
 
-// const promise=new Promise((resolve,reject)=>{
-//     let a=12
-//     if(a>10){
-//         resolve("Accepted")
-//     }
-//     else{
-//         reject("Not Accepted")
-//     }
-// })
+const promise=new Promise((resolve,reject)=>{
+    let a=12
+    if(a>10){
+        resolve("Accepted")
+    }
+    else{
+        reject("Not Accepted")
+    }
+})
 // promise.then((msg)=>{console.log(msg)})
 // .catch((error)=>{console.log(error)})
 // .finally(()=>console.log("All resources have closed."))
