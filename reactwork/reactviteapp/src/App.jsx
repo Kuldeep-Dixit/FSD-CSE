@@ -1,5 +1,7 @@
 import React from 'react'
 import Student from './Student';
+import UseStudentState from "./UseStudentState"
+import Imagemanipulation from './Imagemanipulation';
 function App() {
   const h1=<h1>Hello World</h1>;
  const mystyle={
@@ -73,7 +75,8 @@ function App() {
   <div>
     <h2>Hello using stateHook</h2>
     <div>
-      <UseStudentState/>
+      {/* <UseStudentState/> */}
+      <Imagemanipulation/>
     </div>
   </div>
   )
