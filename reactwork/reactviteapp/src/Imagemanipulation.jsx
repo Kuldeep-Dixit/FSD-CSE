@@ -4,26 +4,26 @@ function Imagemanipulation(){
     const[height,setHeight]=useState(100);
     const[width,setWidth]=useState(100);
     const[rotateImg,setRotate]=useState(0);
-    const[bgc,setBGC]=useState(0);
+    const[bgc,setBGC]=useState();
 
     function enhanceHeight(){
-        setHeight(height+30)
+        setHeight(height+20)
     }
     function enhanceWidth(){
-        setWidth(width+30)
+        setWidth(width+20)
     }
     function changeBGC(){
         var bg = `rgb(${Math.floor(Math.random()*255)},${Math.floor(Math.random()*255)},${Math.floor(Math.random()*255)})`
-        console.log(bg)
-        setBGC(bgc)
+        // console.log(bg)
+        setBGC(bg)
     }
     function doRotate(){
-        setRotate(rotateImg+30)
+        setRotate(rotateImg+45)
     }
 
     return (
         <div style={{border:'2px solid red',height:"300px" , width:"420px",marginLeft:"550px", backgroundColor:'#9694FF'}}>
-    <div style={{marginLeft:"100px", backgroundColor:{bgc}, height:"200px", width:"200px", border:"1px solid black",marginTop:"40px"}}>
+    <div style={{marginLeft:"100px", backgroundColor:`${bgc}`, height:"200px", width:"200px", border:"1px solid black",marginTop:"40px"}}>
       <img src={cat} style={{transform:`rotate(${rotateImg}deg)`}} height={height} width={width}  alt="cat image" />
     </div>
         <div style={{marginTop:'100px'}}>

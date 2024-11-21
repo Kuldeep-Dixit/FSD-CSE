@@ -2,6 +2,9 @@ import React from 'react'
 import Student from './Student';
 import UseStudentState from "./UseStudentState"
 import Imagemanipulation from './Imagemanipulation';
+import MyUseEffect from './MyUseEffect';
+import UseFetchAPI from './UseFetchAPI';
+
 function App() {
   const h1=<h1>Hello World</h1>;
  const mystyle={
@@ -76,7 +79,9 @@ function App() {
     <h2>Hello using stateHook</h2>
     <div>
       {/* <UseStudentState/> */}
-      <Imagemanipulation/>
+      {/* <Imagemanipulation/> */}
+      {/* <MyUseEffect/> */}
+      <UseFetchAPI/>
     </div>
   </div>
   )
