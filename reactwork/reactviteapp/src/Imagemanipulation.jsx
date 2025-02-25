@@ -26,6 +26,12 @@ function Imagemanipulation(){
     <div style={{marginLeft:"100px", backgroundColor:`${bgc}`, height:"200px", width:"200px", border:"1px solid black",marginTop:"40px"}}>
       <img src={cat} style={{transform:`rotate(${rotateImg}deg)`}} height={height} width={width}  alt="cat image" />
     </div>
+        <div>
+            <p>Height: {height}</p>
+            <p>width: {width}</p>
+            <p>Angle: {rotateImg}</p>
+            <p>color: {bgc}</p>
+        </div>
         <div style={{marginTop:'100px'}}>
             <button id="btn" onClick={enhanceHeight}>Enhance Height</button>
             <button id="btn" onClick={enhanceWidth}>Enhance width</button>
