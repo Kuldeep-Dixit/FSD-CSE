@@ -1,2 +1,12 @@
-
- [{"name":"Rahul","email":"dixitk488@gmail.com","password":"abes@123"},{"name":"Kuldeep","email":"dixit488@gmail.com","password":"abes@123"}]
+[
+  {
+    "name": "Kuldeep",
+    "email": "dixit488@gmail.com",
+    "password": "abes@123"
+  },
+  {
+    "name": "Kuldeep",
+    "email": "dixitk488@gmail.com",
+    "password": "abes@123"
+  }
+]
