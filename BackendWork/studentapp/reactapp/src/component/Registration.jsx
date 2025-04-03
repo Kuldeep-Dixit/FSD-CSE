@@ -20,7 +20,7 @@ function Registration(){
 
     return (
         <>
-        <div>
+        <div style={{border:'2px dotted black', padding:'10px', BorderRadiusTopleft:'10px'}}>
             <h2 style={{backgroundColor:"cyan"}}>Registration</h2>
             <form onSubmit={sendData}>
             <div class="form-group">
